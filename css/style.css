@@ -564,16 +564,20 @@ body {
     box-shadow: var(--shadow);
 }
 
+/*
 .results-content {
     text-align: center;
 }
+*/
 
 .results-header {
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .results-icon {
     font-size: 5em;
+    align: center;
     margin-bottom: 20px;
     animation: bounceIn 0.6s ease;
     will-change: transform;
@@ -1527,7 +1531,7 @@ body {
     }
 
     .category-info-stats {
-        flex-direction: column;
+        flex-direction: row;
         gap: 14px;
     }
 
@@ -1896,20 +1900,6 @@ html, body {
     margin-top: 4px;
 }
 
-/*----------------ЧЕРТА-------------------------*/
-/* Разделитель под категорией (аналог category-info-divider)
-.category-btn__divider {
-    height: 1px;
-    background: linear-gradient(90deg,
-        transparent,
-        rgba(255, 255, 255, 0.15) 20%,
-        rgba(255, 255, 255, 0.15) 80%,
-        transparent);
-    margin: 12px 0 8px 0;
-    width: 100%;
-}
-*/
-
 
 /* Возраст в круге */
 .info-stat-age {
@@ -1988,7 +1978,7 @@ html, body {
     }
 
     .question-image-wrapper {
-        min-height: 250px;
+        min-height: 150px;
     }
 }
 
