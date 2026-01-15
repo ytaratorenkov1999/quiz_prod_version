@@ -4,173 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10b86618-3584-4db6-bfeb-e569ef35808c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/audiobooks/audiobooks_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/audiobooks/audiobooks_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/audiobooks/audiobooks_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/audiobooks/audiobooks_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/audiobooks/audiobooks_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/audiobooks/audiobooks_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/audiobooks/audiobooks_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/audiobooks/audiobooks_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/audiobooks/audiobooks_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/audiobooks/audiobooks_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/butter_day/butter_day_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/butter_day/butter_day_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/butter_day/butter_day_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/butter_day/butter_day_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/butter_day/butter_day_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/butter_day/butter_day_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/butter_day/butter_day_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/butter_day/butter_day_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/butter_day/butter_day_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/butter_day/butter_day_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cartoon_on_board/cartoon_on_board_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cartoon_on_board/cartoon_on_board_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cartoon_on_board/cartoon_on_board_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cartoon_on_board/cartoon_on_board_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cartoon_on_board/cartoon_on_board_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cartoon_on_board/cartoon_on_board_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cartoon_on_board/cartoon_on_board_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cartoon_on_board/cartoon_on_board_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cartoon_on_board/cartoon_on_board_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cartoon_on_board/cartoon_on_board_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cinema_on_board/cinema_on_board_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cinema_on_board/cinema_on_board_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cinema_on_board/cinema_on_board_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cinema_on_board/cinema_on_board_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cinema_on_board/cinema_on_board_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cinema_on_board/cinema_on_board_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cinema_on_board/cinema_on_board_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cinema_on_board/cinema_on_board_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cinema_on_board/cinema_on_board_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cinema_on_board/cinema_on_board_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/geography_russia/geography_russia_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/geography_russia/geography_russia_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/geography_russia/geography_russia_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/geography_russia/geography_russia_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/geography_russia/geography_russia_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/geography_russia/geography_russia_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/geography_russia/geography_russia_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/geography_russia/geography_russia_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/geography_russia/geography_russia_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/geography_russia/geography_russia_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/women_day/women_day_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/women_day/women_day_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/women_day/women_day_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/women_day/women_day_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/women_day/women_day_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/women_day/women_day_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/women_day/women_day_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/women_day/women_day_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/women_day/women_day_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/women_day/women_day_9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/Art_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/Art_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/Art_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/Art_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/Art_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/Art_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/Art_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/Art_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/Art_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/art/Art_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cartoons/Cartoon_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cartoons/Cartoon_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cartoons/Cartoon_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cartoons/Cartoon_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cartoons/Cartoon_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cartoons/Cartoon_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cartoons/Cartoon_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cartoons/Cartoon_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cartoons/Cartoon_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cartoons/Cartoon_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cinema/Films_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cinema/Films_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cinema/Films_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cinema/Films_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cinema/Films_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cinema/Films_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cinema/Films_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cinema/Films_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cinema/Films_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cinema/Films_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ecology/Ecology_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ecology/Ecology_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ecology/Ecology_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ecology/Ecology_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ecology/Ecology_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ecology/Ecology_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ecology/Ecology_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ecology/Ecology_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ecology/Ecology_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ecology/Ecology_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geography/Geography_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geography/Geography_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geography/Geography_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geography/Geography_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geography/Geography_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geography/Geography_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geography/Geography_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geography/Geography_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geography/Geography_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geography/Geography_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/literature/Literature_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/literature/Literature_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/literature/Literature_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/literature/Literature_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/literature/Literature_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/literature/Literature_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/literature/Literature_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/literature/Literature_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/literature/Literature_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/literature/Literature_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/music/Music_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/music/Music_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/music/Music_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/music/Music_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/music/Music_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/music/Music_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/music/Music_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/music/Music_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/music/Music_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/music/Music_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/school/School_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/school/School_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/school/School_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/school/School_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/school/School_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/school/School_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/school/School_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/school/School_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/school/School_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/school/School_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sports/Sport_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sports/Sport_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sports/Sport_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sports/Sport_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sports/Sport_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sports/Sport_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sports/Sport_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sports/Sport_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sports/Sport_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sports/Sport_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/theatre/Theatre_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/theatre/Theatre_10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/theatre/Theatre_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/theatre/Theatre_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/theatre/Theatre_4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/theatre/Theatre_5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/theatre/Theatre_6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/theatre/Theatre_7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/theatre/Theatre_8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/theatre/Theatre_9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/questions.js" beforeDir="false" />
-    </list>
+    <list default="true" id="10b86618-3584-4db6-bfeb-e569ef35808c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/taratorenkov/PycharmProjects/quiz_prod_version/images/women_day"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/taratorenkov/PycharmProjects/quiz_prod_version/images/women_day&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\taratorenkov\PycharmProjects\quiz_prod_version\images\women_day" />
