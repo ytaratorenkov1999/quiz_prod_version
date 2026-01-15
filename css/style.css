@@ -37,6 +37,13 @@
     --category-theater: #4682B4;
     --category-music: #4682B4;
     --category-sport: #4682B4;
+
+    --category-women_day: #4682B4;
+    --category-cinema_on_board: #4682B4;
+    --category-cartoon_on_board: #4682B4;
+    --category-butter_day: #4682B4;
+    --category-audiobooks: #4682B4;
+    --category-geography_russia: #4682B4;
 }
 
 html {
@@ -148,17 +155,13 @@ body {
     }
 }
 
-
-
-
-
 .categories {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
 }
 
-/* Блок category-btn */
+
 .category-btn {
     background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
     backdrop-filter: blur(8px);
@@ -269,6 +272,36 @@ body {
 .category-btn--sport {
     border-top: 4px solid var(--category-sport);
     --category-color: var(--category-sport);
+}
+
+.category-btn--women_day {
+    border-top: 4px solid var(--category-women_day);
+    --category-color: var(--category-women_day);
+}
+
+.category-btn--cinema_on_board {
+    border-top: 4px solid var(--category-cinema_on_board);
+    --category-color: var(--category-cinema_on_board);
+}
+
+.category-btn--cartoon_on_board {
+    border-top: 4px solid var(--category-cartoon_on_board);
+    --category-color: var(--category-cartoon_on_board);
+}
+
+.category-btn--butter_day {
+    border-top: 4px solid var(--category-butter_day);
+    --category-color: var(--category-butter_day);
+}
+
+.category-btn--audiobooks {
+    border-top: 4px solid var(--category-audiobooks);
+    --category-color: var(--category-audiobooks);
+}
+
+.category-btn--geography_russia {
+    border-top: 4px solid var(--category-geography_russia);
+    --category-color: var(--category-geography_russia);
 }
 
 /* ============================================
@@ -550,6 +583,83 @@ body {
 .btn-secondary:hover {
     background: rgba(255, 255, 255, 0.15);
     border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* ============================================
+   ПЛАШКА "NEW" ДЛЯ КАТЕГОРИЙ
+   ============================================ */
+
+.category-btn {
+    position: relative; /* Важно для позиционирования плашки */
+}
+
+.new-badge {
+    position: absolute;
+    top: 12px;  /* Смещаем ниже */
+    right: 12px; /* Смещаем правее */
+
+    background-color: rgba(64, 224, 208, 0.85);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    padding: 5px 12px;
+    border-radius: 16px;
+
+    box-shadow: 0 2px 8px rgba(64, 224, 208, 0.4);
+    z-index: 2;
+
+    animation: badgePulse 2s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 2px 8px rgba(64, 224, 208, 0.4);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(64, 224, 208, 0.6);
+    }
+}
+
+/* Адаптивность для плашки */
+@media (max-width: 767px) {
+    .new-badge {
+        font-size: 11px;
+        padding: 4px 10px;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .new-badge {
+        font-size: 10px;
+        padding: 3px 8px;
+        top: 8px;
+        right: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    .new-badge {
+        font-size: 9px;
+        padding: 3px 7px;
+        top: 8px;
+        right: 8px;
+    }
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+    .new-badge {
+        font-size: 10px;
+        padding: 3px 8px;
+        top: 8px;
+        right: 8px;
+    }
 }
 
 /* ============================================
@@ -1255,6 +1365,8 @@ body {
     .category-info-description {
         font-size: 0.98em;
     }
+
+
 
     .info-stat-value {
         font-size: 1.3em;
