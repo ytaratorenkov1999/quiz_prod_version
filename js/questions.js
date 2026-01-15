@@ -978,7 +978,7 @@ const questionsDatabase = {
         },
         {
             question: "Какой напиток часто подают к блинам на Масленицу?",
-            answers: ["Молока", "Квас", "Морс", "Чай"],
+            answers: ["Молоко", "Квас", "Морс", "Чай"],
             correct: 3,
             image: "images/butter_day/butter_day_5.jpg",
             explanation: "Горячий чай традиционно сопровождает блины и согревает зимой."
