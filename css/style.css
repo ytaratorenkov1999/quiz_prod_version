@@ -44,6 +44,8 @@
     --category-butter_day: #4682B4;
     --category-audiobooks: #4682B4;
     --category-geography_russia: #4682B4;
+    --category-cosmos: #4682B4;
+
 }
 
 html {
@@ -302,6 +304,11 @@ body {
 .category-btn--geography_russia {
     border-top: 4px solid var(--category-geography_russia);
     --category-color: var(--category-geography_russia);
+}
+
+.category-btn--cosmos {
+    border-top: 4px solid var(--category-cosmos);
+    --category-color: var(--category-cosmos);
 }
 
 /* ============================================
