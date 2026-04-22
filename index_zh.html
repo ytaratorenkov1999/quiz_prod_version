@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Викторины- проверьте свои знания в полете">
+    <meta name="theme-color" content="#1a2539">
+    <title>Викторины</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Кнопка выхода/возврата на портал -->
+    <button class="exit-btn" id="exit-btn" aria-label="Выход из викторины">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+    </button>
+
+    <div class="container">
+        <!-- Главный экран -->
+        <div id="welcome-screen" class="screen active">
+
+            <div class="logo">
+                <h1 class="main-title">ВИКТОРИНЫ</h1>
+                <p class="subtitle">Проверьте свои знания в полете!</p>
+            </div>
+
+            <div class="category-selection">
+                <div class="categories">
+
+                    <button class="category-btn category-btn--you_known_krasnoyarsk" data-category="you_known_krasnoyarsk" aria-label="Узнай: Красноярский край">
+                        <span class="new-badge">Новинка</span>
+                        <span class="category-btn__icon" aria-hidden="true">❄️</span>
+                        <span class="category-btn__title">Узнай: Красноярский край</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--you_known_primorskii" data-category="you_known_primorskii" aria-label="Узнай: Приморский край">
+                        <span class="new-badge">Новинка</span>
+                        <span class="category-btn__icon" aria-hidden="true">🌉</span>
+                        <span class="category-btn__title">Узнай: Приморский край</span>
+                        <br>
+                    </button>
+
+
+                    <button class="category-btn category-btn--you_known_kamchatskii" data-category="you_known_kamchatskii" aria-label="Узнай: Камчатский край">
+                        <span class="new-badge">Новинка</span>
+                        <span class="category-btn__icon" aria-hidden="true">🌋</span>
+                        <span class="category-btn__title">Узнай: Камчатский край</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--you_known_sahalin" data-category="you_known_sahalin" aria-label="Узнай: Сахалинская область">
+                        <span class="new-badge">Новинка</span>
+                        <span class="category-btn__icon" aria-hidden="true">🐟</span>
+                        <span class="category-btn__title">Узнай: Сахалинская область</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--you_known_altai" data-category="you_known_altai" aria-label="Узнай: Республика Алтай">
+                        <span class="new-badge">Новинка</span>
+                        <span class="category-btn__icon" aria-hidden="true">🦅</span>
+                        <span class="category-btn__title">Узнай: Республика Алтай</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--you_known_murmansk" data-category="you_known_murmansk" aria-label="Узнай: Мурманская область">
+                        <span class="new-badge">Новинка</span>
+                        <span class="category-btn__icon" aria-hidden="true">⚓️</span>
+                        <span class="category-btn__title">Узнай: Мурманская область</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--you_known_irkutsk" data-category="you_known_irkutsk" aria-label="Узнай: Иркутская область">
+                        <span class="new-badge">Новинка</span>
+                        <span class="category-btn__icon" aria-hidden="true">🌅</span>
+                        <span class="category-btn__title">Узнай: Иркутская область</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--you_known_tatarstan" data-category="you_known_tatarstan" aria-label="Узнай: Республика Татарстан">
+                        <span class="new-badge">Новинка</span>
+                        <span class="category-btn__icon" aria-hidden="true">🍯</span>
+                        <span class="category-btn__title">Узнай: Республика Татарстан</span>
+                        <br>
+                    </button>
+
+
+                    <button class="category-btn category-btn--you_known_stavropol" data-category="you_known_stavropol" aria-label="Узнай: Ставропольский край">
+                        <span class="new-badge">Новинка</span>
+                        <span class="category-btn__icon" aria-hidden="true">☀️</span>
+                        <span class="category-btn__title">Узнай: Ставропольский край</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--you_known_samara" data-category="you_known_samara" aria-label="Узнай: Самарская область">
+                        <span class="new-badge">Новинка</span>
+                        <span class="category-btn__icon" aria-hidden="true">🌊</span>
+                        <span class="category-btn__title">Узнай: Самарская область</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--geography_russia" data-category="geography_russia" aria-label="Выбрать категорию География России">
+                        <span class="category-btn__icon" aria-hidden="true">🏔️</span>
+                        <span class="category-btn__title">География России</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--cinema_on_board" data-category="cinema_on_board" aria-label="Выбрать категорию Кино">
+                        <span class="category-btn__icon" aria-hidden="true">🍿</span>
+                        <span class="category-btn__title">Кино</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--audiobooks" data-category="audiobooks" aria-label="Выбрать категорию Аудиокниги">
+                        <span class="category-btn__icon" aria-hidden="true">🎧</span>
+                        <span class="category-btn__title">Аудиокниги</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--cartoon_on_board" data-category="cartoon_on_board" aria-label="Выбрать категорию Мультфильмы">
+                        <span class="category-btn__icon" aria-hidden="true">🐱</span>
+                        <span class="category-btn__title">Мультфильмы</span>
+                        <br>
+                    </button>
+
+
+                    <button class="category-btn category-btn--school" data-category="school" aria-label="Выбрать категорию Школа">
+                        <span class="category-btn__icon" aria-hidden="true">🏫</span>
+                        <span class="category-btn__title">Школа</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--ecology" data-category="ecology" aria-label="Выбрать категорию Экология">
+                        <span class="category-btn__icon" aria-hidden="true">🌱</span>
+                        <span class="category-btn__title">Экология</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--art" data-category="art" aria-label="Выбрать категорию Искусство">
+                        <span class="category-btn__icon" aria-hidden="true">🎨</span>
+                        <span class="category-btn__title">Искусство</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--geography" data-category="geography" aria-label="Выбрать категорию География">
+                        <span class="category-btn__icon" aria-hidden="true">🌍</span>
+                        <span class="category-btn__title">География</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--theater" data-category="theater" aria-label="Выбрать категорию Театр">
+                        <span class="category-btn__icon" aria-hidden="true">🎭</span>
+                        <span class="category-btn__title">Театр</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--music" data-category="music" aria-label="Выбрать категорию Музыка">
+                        <span class="category-btn__icon" aria-hidden="true">🎵</span>
+                        <span class="category-btn__title">Музыка</span>
+                        <br>
+                    </button>
+
+                    <button class="category-btn category-btn--sport" data-category="sport" aria-label="Выбрать категорию Спорт">
+                        <span class="category-btn__icon" aria-hidden="true">⚽</span>
+                        <span class="category-btn__title">Спорт</span>
+                        <br>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Экран информации о категории -->
+        <div id="category-info-screen" class="screen">
+            <div class="category-info-content">
+                <div class="category-info-icon" id="category-info-icon" aria-hidden="true">🎬</div>
+                <h2 class="category-info-title" id="category-info-title">Кино на борту</h2>
+                <p class="category-info-description" id="category-info-description">Проверьте свои знания о фильмах и кинематографе.</p>
+
+                <div class="category-info-divider" aria-hidden="true"></div>
+
+                <div class="category-info-stats">
+                    <div class="info-stat-item">
+                        <span class="info-stat-label">Вопросов:</span>
+                        <span class="info-stat-value info-stat-circle" id="category-info-questions">10</span>
+                    </div>
+                    <div class="info-stat-item">
+                        <span class="info-stat-label">Возраст:</span>
+                        <span class="info-stat-value info-stat-circle" id="category-info-age">12+</span>
+                    </div>
+                </div>
+
+                <div class="category-info-actions">
+                    <button class="btn btn-back" id="category-info-back" aria-label="Вернуться к выбору категорий">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Назад
+                    </button>
+                    <button class="btn btn-primary active" id="category-info-start" aria-label="Начать викторину">
+                        Начать викторину
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Экран викторины -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Прогресс викторины">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <div class="quiz-info">
+                    <span class="question-counter">
+                        Вопрос <span id="current-question">1</span> из <span id="total-questions">10</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="quiz-content">
+                <div id="question-image-container"></div>
+
+                <h2 class="question" id="question-text"></h2>
+
+                <div class="answers" id="answers-container" role="radiogroup" aria-label="Варианты ответов"></div>
+
+                <div class="quiz-controls">
+                    <button id="back-btn" class="btn btn-back" aria-label="Вернуться к предыдущему вопросу">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Назад
+                    </button>
+
+                    <button id="next-btn" class="btn btn-primary" aria-label="Перейти к следующему вопросу">
+                        Далее
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Экран результатов -->
+        <div id="results-screen" class="screen">
+            <div class="results-content">
+                <div class="results-header">
+                    <div class="results-icon" id="results-icon" aria-hidden="true">🏆</div>
+                    <h2 class="results-title" id="results-title">Отличный результат!</h2>
+                    <p class="results-message" id="results-message"></p>
+                </div>
+
+                <!-- Статистика в карточках -->
+                <div class="results-stats-grid">
+                    <div class="stat-card stat-card-score">
+                        <div class="stat-card-icon">⭐</div>
+                        <div class="stat-card-content">
+                            <div class="stat-card-value" id="final-score">0</div>
+                            <div class="stat-card-label">Баллов</div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card stat-card-percentage">
+                        <div class="stat-card-icon">📊</div>
+                        <div class="stat-card-content">
+                            <div class="stat-card-value" id="percentage">0%</div>
+                            <div class="stat-card-label">Точность</div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card stat-card-correct">
+                        <div class="stat-card-icon">✓</div>
+                        <div class="stat-card-content">
+                            <div class="stat-card-value" id="correct-count">0</div>
+                            <div class="stat-card-label">Правильно</div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card stat-card-incorrect">
+                        <div class="stat-card-icon">✗</div>
+                        <div class="stat-card-content">
+                            <div class="stat-card-value" id="incorrect-count">0</div>
+                            <div class="stat-card-label">Неправильно</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Детальная разбивка по вопросам -->
+                <div class="results-details">
+                    <h3 class="results-details-title">Детальный разбор ответов</h3>
+                    <div class="results-questions-list" id="results-questions-list"></div>
+                </div>
+
+                <div class="results-actions">
+                    <button class="btn btn-primary active" id="play-again-btn" aria-label="Пройти викторину снова">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C14.8273 3 17.35 4.30367 19 6.34267" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M21 3V7H17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Пройти снова
+                    </button>
+                    <button type="button" class="btn btn-secondary" id="change-category-btn" aria-label="Выбрать другую категорию">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M9 5H7C5.89543 5 5 5.89543 5 7V19C5 20.1046 5.89543 21 7 21H17C18.1046 21 19 20.1046 19 19V7C19 5.89543 18.1046 5 17 5H15" stroke="currentColor" stroke-width="2"/>
+                            <rect x="9" y="3" width="6" height="4" rx="1" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        Выбрать другую
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальное окно выхода -->
+    <div id="exit-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="exit-modal-title">
+        <div class="modal-content">
+            <div class="modal-icon" aria-hidden="true">⚠️</div>
+            <h3 class="modal-title" id="exit-modal-title">Вы действительно хотите выйти?</h3>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" id="exit-cancel" aria-label="Отменить выход">Нет</button>
+                <button class="btn btn-primary active" id="exit-confirm" aria-label="Подтвердить выход">Да</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Скрипты -->
+    <script src="js/questions.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
