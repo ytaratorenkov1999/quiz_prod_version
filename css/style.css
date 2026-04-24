@@ -48,6 +48,8 @@
     --category-you_known_tatarstan: #4682B4;
     --category-you_known_stavropol: #4682B4;
     --category-you_known_samara: #4682B4;
+    --category-you_known_moscow: #4682B4;
+    --category-you_known_stpeterburg: #4682B4;
 
 }
 
@@ -334,6 +336,16 @@ body {
 .category-btn--you_known_samara {
     border-top: 4px solid var(--category-you_known_samara);
     --category-color: var(--category-you_known_samara);
+}
+
+.category-btn--you_known_stpeterburg {
+    border-top: 4px solid var(--category-you_known_stpeterburg);
+    --category-color: var(--category-you_known_stpeterburg);
+}
+
+.category-btn--you_known_moscow {
+    border-top: 4px solid var(--category-you_known_moscow);
+    --category-color: var(--category-you_known_moscow);
 }
 
 /* ============================================
