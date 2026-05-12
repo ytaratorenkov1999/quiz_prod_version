@@ -1783,7 +1783,7 @@ const questionsDatabase = {
             question: "В каком году был основан Московский зоопарк, один из старейших в Европе?",
             answers: ["1864 год", "1901 год", "1922 год", "1947 год"],
             correct: 0,
-            image: "images/Uznai_moscow/Moscow_8.jpg",
+            image: "images/Uznai_moscow/Moscow_9.jpg",
             explanation: "Основанный в 1864 году, он стал одним из старейших зоопарков Европы."
         },
 
